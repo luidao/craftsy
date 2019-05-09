@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Verdana', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bg-2.png)
+}
+
+header {
+    width: 1140px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.main-nav {
+    background-color: rgb(239, 76, 39);
+    padding: 12px 15px;
+    overflow: hidden;
+}
+
+.main-nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.main-nav ul li {
+    display: inline-block;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-nav > a {
+    float: left;
+}
+
+.menu {
+    float: left;
+}
+
+.menu.access {
+    float: right;
+}
+
+.product-container {
+    background-color: white;
+    width: 800px;
+    float: left;
+    margin-right: 20px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.producto {
+    width: 380px;
+    margin: 10px;
+    float: left;
+} 
+
+.producto img {
+    width: 100%;
+}
+
+.producto .more {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.8);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 12px;
+}
+
+.left-column {
+    width: 320px;
+    float: right;
+}
+
+.left-column h2 {
+    padding: 15px;
+    background-color: white;
+}
+
+.left-column section {
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.left-column section article {
+    border-bottom: 1px solid lightblue;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.left-column section article img {
+    float: left;
+    margin-right: 10px;
+}
